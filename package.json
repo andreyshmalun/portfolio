@@ -2,7 +2,7 @@
   "name": "pf",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://andreyshmalun.github.io/",
+  "homepage": "https://andreyshmalun.github.io/portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
