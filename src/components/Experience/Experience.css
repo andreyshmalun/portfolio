@@ -1,58 +1,3 @@
-/* .experience__container {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-}
-
-.experience__header {
-  text-decoration: underline;
-}
-
-.experience__list {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 1.5rem;
-}
-
-.experience__container > div {
-  background: var(--color-primary);
-  padding: 2.4rem 5rem;
-  border-radius: 2rem;
-  border: 1px solid transparent;
-  transition: var(--transition);
-  color: var(--color-bg);
-}
-
-.experience__container > div:hover {
-  background: var(--color-primary-variant);
-  cursor: default;
-}
-
-.experience__container > div h3 {
-  text-align: center;
-  margin-bottom: 2rem;
-  color: var(--color-bg);
-}
-
-.experience__content {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  row-gap: 2rem;
-  column-gap: 2rem;
-}
-
-.experience__details {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  text-align: center;
-}
-
-.experience__details-icon {
-  margin-top: 6px;
-  color: var(--color-light);
-} */
-
 .experience__container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -92,7 +37,7 @@ li {
 /* ---------------MEDIA QUERIES(MEDIUM DEVICES)----------------- */
 @media screen and (max-width: 1024px) {
   .experience__container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .experience__container > div {
     width: 80%;
