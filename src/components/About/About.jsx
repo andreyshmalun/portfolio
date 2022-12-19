@@ -8,7 +8,7 @@ const About = () => {
       <div className="container about__container">
         <p>
           I’m a full-stack web developer with strong analytical skills and a
-          passion for problem-solving. My backgrounds in Electronics Engineering
+          passion for problem-solving. My background in Electronics Engineering
           have given me an extreme eye for detail, a deep understanding of the
           value of excellent teamwork, and an appreciation of writing clear and
           organized procedures and code. I am ready to bring my skills to a team
