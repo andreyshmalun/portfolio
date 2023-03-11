@@ -6,7 +6,7 @@ export const data = [
     about:
       ' The server-side component of the Movio App. The web application provides users with access to information about different movies, directors, and genres. Users are able to sign up, update their personal information, and create a list of their favorite movies.',
     github: 'https://github.com/andreyshmalun/movio',
-    demo: 'https://movio.onrender.com/documentation',
+    demo: '/casestudy2',
   },
   {
     id: 1,

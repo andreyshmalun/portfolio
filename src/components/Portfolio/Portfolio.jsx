@@ -30,7 +30,11 @@ const Portfolio = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {id === 4 ? 'Case Study' : 'Live demo'}
+                  {id === 4
+                    ? 'Case Study'
+                    : id === 5
+                    ? 'Case study'
+                    : 'Live demo'}
                 </a>
               </div>
               <p className="about">{about}</p>
