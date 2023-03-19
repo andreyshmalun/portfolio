@@ -51,7 +51,7 @@ const Footer = () => {
           <AiFillTwitterCircle />
         </a>
         <a
-          href="https://www.instagram.com/andrey_shmalun/"
+          href="https://www.instagram.com/andriishhh/"
           target="_blank"
           rel="noreferrer"
         >
