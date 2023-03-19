@@ -1,6 +1,11 @@
 import React from 'react';
 import './Footer.css';
-import { AiOutlineInstagram, AiFillTwitterCircle } from 'react-icons/ai';
+import {
+  AiOutlineInstagram,
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+  AiFillGithub,
+} from 'react-icons/ai';
 
 const Footer = () => {
   return (
@@ -25,11 +30,18 @@ const Footer = () => {
 
       <div className="footer__socials">
         <a
-          href="https://www.instagram.com/andrey_shmalun/"
+          href="https://www.linkedin.com/in/andriishmalun/"
           target="_blank"
           rel="noreferrer"
         >
-          <AiOutlineInstagram />
+          <AiFillLinkedin />
+        </a>
+        <a
+          href="https://github.com/andreyshmalun"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <AiFillGithub />
         </a>
         <a
           href="https://twitter.com/shmalunandrey"
@@ -37,6 +49,13 @@ const Footer = () => {
           rel="noreferrer"
         >
           <AiFillTwitterCircle />
+        </a>
+        <a
+          href="https://www.instagram.com/andrey_shmalun/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <AiOutlineInstagram />
         </a>
       </div>
       <div className="footer__copyright">

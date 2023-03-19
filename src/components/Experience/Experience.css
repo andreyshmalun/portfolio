@@ -27,10 +27,10 @@
 
 @media (max-width: 768px) {
   .listItemStyles {
-    font-size: 0.8rem; /* or adjust as needed */
+    font-size: 0.8rem;
   }
 
   .iconStyles {
-    font-size: 1.5rem; /* or adjust as needed */
+    font-size: 1.5rem;
   }
 }
