@@ -1,5 +1,14 @@
 export const data = [
   {
+    id: 4,
+    image: '/assets/portfolio4.png',
+    title: 'Chat App',
+    about:
+      'A chat app for mobile devices built with React-Native. It provides users with a chat interface where they can send and receive text messages and images as well as share their location.',
+    github: 'https://github.com/andreyshmalun/Chat',
+    demo: '/casestudy',
+  },
+  {
     id: 5,
     image: '/assets/portfolio5.png',
     title: 'Movio API',
@@ -18,15 +27,6 @@ export const data = [
     demo: 'https://movioapp.netlify.app/',
   },
   {
-    id: 4,
-    image: '/assets/portfolio4.png',
-    title: 'React Native Chat app',
-    about:
-      'A chat app for mobile devices built with React-Native. It provides users with a chat interface where they can send and receive text messages and images as well as share their location.',
-    github: 'https://github.com/andreyshmalun/Chat',
-    demo: '/casestudy',
-  },
-  {
     id: 3,
     image: '/assets/portfolio3.png',
     title: 'Meetapp',
@@ -43,14 +43,5 @@ export const data = [
       'The client-side for an application called Movio based on existing server-side code (REST API and database), built with TypeScript/Angular. After the user creates an account, the app provides her with information about selected movies, as well as the respective directors and genres. The user can add/remove favorite movies and manage her account data. To log in: Username: User, Password: 12345678',
     github: 'https://github.com/andreyshmalun/movio-Angular-client',
     demo: 'https://andreyshmalun.github.io/movio-Angular-client/welcome',
-  },
-  {
-    id: 2,
-    image: '/assets/portfolio2.jpeg',
-    title: 'The Pokédex',
-    about:
-      'This is a small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the viewing of data points in detail.',
-    github: 'https://github.com/andreyshmalun/simple-js-app',
-    demo: 'https://andreyshmalun.github.io/simple-js-app/',
   },
 ];
